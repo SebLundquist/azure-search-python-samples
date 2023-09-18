@@ -124,8 +124,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             search_text=q,
             top=top,
             skip=skip,
-            facets=facetKeys,
-            filter=filter,
             include_total_count=True,
         )
 
